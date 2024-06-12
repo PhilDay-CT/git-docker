@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  sfjs:
+    image: ct_git:0.0.1
+    hostname: git
+    ports:
+      - 3000:3000
+    
+    
+
